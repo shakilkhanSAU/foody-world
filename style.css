@@ -73,7 +73,7 @@ h2{
     display: flex;
 }
 #recipies-section{
-    margin-left: 100px;
+    margin-left: 98px;
     padding-bottom: 65px;
     padding-top: 30px;
 }
@@ -81,14 +81,15 @@ h2{
     text-align: center;
     padding: 0px 100px 0px 100px;
     margin-top: -10px;
+    margin: 0px 120px;
 
 }
 .recipies-item{
     width: 22%;
     padding: 15px;
-    margin: 30px;
+    margin: 42px;
     border-radius: 25px;
-    box-shadow: 0px 0px 15px 2px gray;
+    box-shadow: 0px 0px 15px 2px rgb(189, 188, 188);
 }
 .recipies-item img{
     width: 100%;
@@ -102,5 +103,20 @@ h2{
     border-radius: 15px;
     padding: 5px 20px;
 }
-
 /* recipies section end here */
+
+/* social Media Style start */
+#social-media{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 130px;
+    margin: 0px 130px 80px 130px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px rgb(189, 188, 188);
+}
+.social{
+    text-align: center;
+    margin: 60px;
+}
+
+/* social Media Style end */
