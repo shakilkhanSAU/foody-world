@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* start styling the hero section */
+
+.banner-description h1{
+    font-size: 60px;
+    margin-bottom: -2px;
+
+}
+#hero-section{
+    display: flex;
+    margin-bottom: auto;
+}
+.orange{
+    color: orange;
+}
+.banner-description{
+    width: 50%;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 150px;
+    padding: 10px;
+}
+.banner-image{
+    width: 50%;
+    vertical-align: middle;
+    padding: 50px;
+}
+.banner-image img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* end of hero-section slyling */
+
+/* about section styling start here */
+
+#about-section{
+    display: flex;
+    background-color: rgb(245, 208, 208);
+}
+
+/* about section styling end here */
