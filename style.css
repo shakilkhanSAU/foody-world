@@ -45,7 +45,6 @@ body{
 /* end of hero-section slyling */
 
 /* about section styling start here */
-
 #about-section{
     display: flex;
     background-image: url(./images/shapes/frame2.png);
@@ -67,3 +66,41 @@ h2{
     padding-right: 30px;
 }
 /* about section styling end here */
+
+/* recipies section start here */
+
+#recipies-inline{
+    display: flex;
+}
+#recipies-section{
+    margin-left: 100px;
+    padding-bottom: 65px;
+    padding-top: 30px;
+}
+#recipies-intro{
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+    margin-top: -10px;
+
+}
+.recipies-item{
+    width: 22%;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 2px gray;
+}
+.recipies-item img{
+    width: 100%;
+    border-radius: 15px;
+}
+.food-test-botton{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(253, 72, 72);
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+/* recipies section end here */
